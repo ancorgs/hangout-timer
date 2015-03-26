@@ -12,7 +12,7 @@
  * License for the specific language governing permissions and limitations under
  * the License
 -->
-	<ModulePrefs title="Hangout Timer">
+	<ModulePrefs title="Alternative Hangout Timer">
 		<Require feature="rpc" />
 		<Require feature="views" />
 		<Require feature="locked-domain" />
@@ -29,22 +29,18 @@
 		<h3>Hangout Timer</h3>
 		<p>You can close this panel by clicking on the Hourglass icon, on the app list (left of the screen).<p>
 
-		<button id="start30s">start 30s</button>
-		<button id="start1m">start 1mn</button>
-		<button id="start2m">start 2mn</button>
 		<button id="start5m">start 5mn</button>
+		<button id="start15m">start 15mn</button>
 		<button id="stop">stop</button>
 
 		<br>
-		<button id="big30s">big 30s</button>
-		<button id="big1m">big 1mn</button>
-		<button id="big2m">big 2mn</button>
 		<button id="big5m">big 5mn</button>
+		<button id="big15m">big 15mn</button>
 
 		<canvas id="img" width="640" height="360" style="display:none;"></canvas>
 
 		<script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
-		<script src="//hangout-timer-app.appspot.com/src/loader.js"></script>
+    <script src="//raw.githubusercontent.com/ancorgs/hangout-timer/master/src/loader.js"></script>
 
 	</body>
 </html>
