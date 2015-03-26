@@ -26,7 +26,7 @@
 	</head>
 	<body>
 
-		<h3>Hangout Timer</h3>
+		<h3>Modified version of Hangout Timer</h3>
 		<p>You can close this panel by clicking on the Hourglass icon, on the app list (left of the screen).<p>
 
 		<button id="start5m">start 5mn</button>
